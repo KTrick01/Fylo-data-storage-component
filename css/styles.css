@@ -34,6 +34,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 .data__icons {
@@ -144,10 +145,6 @@ body {
   }
 }
 @media (max-width: 800px) {
-  .data {
-    flex-direction: column;
-    align-items: center;
-  }
   body {
     background-image: url(../images/bg-mobile.png);
     background-size: cover;
